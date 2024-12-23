@@ -1,4 +1,4 @@
- function() {
+(function() {
   const list = document.getElementById("band-list"); 
   const items = [...list.children];
 
@@ -6,4 +6,4 @@
 
   // Append sorted items back to the <ul>
   items.forEach(item => list.appendChild(item));
-};
+})();
